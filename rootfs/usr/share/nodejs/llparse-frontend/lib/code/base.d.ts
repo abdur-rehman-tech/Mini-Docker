@@ -1,0 +1,7 @@
+export type Signature = 'match' | 'value' | 'span';
+export declare abstract class Code {
+    readonly signature: Signature;
+    readonly cacheKey: string;
+    readonly name: string;
+    constructor(signature: Signature, cacheKey: string, name: string);
+}

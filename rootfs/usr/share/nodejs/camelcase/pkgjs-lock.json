@@ -1,0 +1,21 @@
+{
+ "dependencies":{
+  "ava":{
+   "version":"5.3.1"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"camelcase",
+ "packages":{
+  "":{
+   "name":"camelcase",
+   "version":"7.0.0"
+  },
+  "node_modules/ava":{
+   "name":"ava",
+   "version":"5.3.1"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"7.0.0"
+}

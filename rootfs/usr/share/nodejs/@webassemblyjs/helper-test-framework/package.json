@@ -1,0 +1,13 @@
+{
+  "name": "@webassemblyjs/helper-test-framework",
+  "version": "1.14.1",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@webassemblyjs/ast": "1.14.1",
+    "@webassemblyjs/helper-compiler": "1.14.1"
+  },
+  "gitHead": "76babfc909478ebf173fc0269881878ca747dc01"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.functionsin",
+    "version": "4.3.9",
+    "description": "TypeScript definitions for lodash.functionsin",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.functionsin",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.functionsin"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "ffd2fcce9e9d2aedcd395821e870fd6620724419ee65b11b7391fcae10562f69",
+    "typeScriptVersion": "4.5"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.tofinite",
+    "version": "4.12.6",
+    "description": "TypeScript definitions for lodash.tofinite",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.tofinite",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.tofinite"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "e755d1e5e298b120761529e55b4d4636b70b18c6b44e813c8051b82b2a16dc41",
+    "typeScriptVersion": "4.5"
+}

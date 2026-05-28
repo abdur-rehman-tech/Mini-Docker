@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.reduceright",
+    "version": "4.6.9",
+    "description": "TypeScript definitions for lodash.reduceright",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.reduceright",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.reduceright"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "7f5c8c789ad0f38a9cf2b71b595026a06a46b1edf366a62cf0160dce0f9bcd2b",
+    "typeScriptVersion": "4.5"
+}

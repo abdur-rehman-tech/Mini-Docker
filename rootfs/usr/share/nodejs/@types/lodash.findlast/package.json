@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.findlast",
+    "version": "4.6.9",
+    "description": "TypeScript definitions for lodash.findlast",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.findlast",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.findlast"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "92e9bc0dcd8fd4c4ed5aff6f5597a14910a362abf86738b8d6cc00c69b13ff92",
+    "typeScriptVersion": "4.5"
+}

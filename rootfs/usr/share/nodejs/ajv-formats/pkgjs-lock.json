@@ -1,0 +1,35 @@
+{
+ "dependencies":{
+  "@ajv-validator/config":{
+   "version":"0.3.0"
+  },
+  "@types/node":{
+   "version":"22.19.0"
+  },
+  "typescript":{
+   "version":"5.0.4"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"ajv-formats",
+ "packages":{
+  "":{
+   "name":"ajv-formats",
+   "version":"3.0.1"
+  },
+  "/usr/share/nodejs/typescript":{
+   "name":"typescript",
+   "version":"5.0.4"
+  },
+  "node_modules/@ajv-validator/config":{
+   "name":"@ajv-validator/config",
+   "version":"0.3.0"
+  },
+  "node_modules/@types/node":{
+   "name":"@types/node",
+   "version":"22.19.0"
+  }
+ },
+ "pkgjs_version":"0.16.0",
+ "version":"3.0.1"
+}

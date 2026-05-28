@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.takerightwhile",
+    "version": "4.6.9",
+    "description": "TypeScript definitions for lodash.takerightwhile",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.takerightwhile",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.takerightwhile"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "662f0ff1d5abdb369d590759b7c25ac99d85ca8201459d15c3d3ebfb1d73c6d2",
+    "typeScriptVersion": "4.5"
+}

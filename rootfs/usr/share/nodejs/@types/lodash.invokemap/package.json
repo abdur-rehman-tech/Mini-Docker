@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.invokemap",
+    "version": "4.6.9",
+    "description": "TypeScript definitions for lodash.invokemap",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.invokemap",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.invokemap"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "f31c468635abdfb15ffeb01ff74b43d729bc02e9774ee9582ccee97a5571974e",
+    "typeScriptVersion": "4.5"
+}

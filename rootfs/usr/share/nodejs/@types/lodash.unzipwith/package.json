@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.unzipwith",
+    "version": "4.3.9",
+    "description": "TypeScript definitions for lodash.unzipwith",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.unzipwith",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.unzipwith"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "e03c95fb76d239a1b11b49af263a906ff65ef08bc9fff106aa3afa2f167c3444",
+    "typeScriptVersion": "4.5"
+}

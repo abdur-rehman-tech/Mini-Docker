@@ -1,0 +1,11 @@
+export type TransformName = 'to_lower_unsafe' | 'to_lower';
+/**
+ * Character transformation.
+ */
+export declare abstract class Transform {
+    readonly name: TransformName;
+    /**
+     * @param name  Transform name
+     */
+    constructor(name: TransformName);
+}

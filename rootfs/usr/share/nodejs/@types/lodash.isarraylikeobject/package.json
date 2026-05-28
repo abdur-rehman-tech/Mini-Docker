@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.isarraylikeobject",
+    "version": "4.2.9",
+    "description": "TypeScript definitions for lodash.isarraylikeobject",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.isarraylikeobject",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.isarraylikeobject"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "dcc35741f7ba21801015616b46ce3fc975299d1a72db89e297c3e23425578bbd",
+    "typeScriptVersion": "4.5"
+}

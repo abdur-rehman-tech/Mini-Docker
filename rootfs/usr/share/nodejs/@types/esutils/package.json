@@ -1,0 +1,25 @@
+{
+    "name": "@types/esutils",
+    "version": "2.0.2",
+    "description": "TypeScript definitions for esutils",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/esutils",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Rhythm Bhiwani",
+            "githubUsername": "rhythmbhiwani",
+            "url": "https://github.com/rhythmbhiwani"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/esutils"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "39720dbeb443a4a5ba0b95bd3b2c1ea388d6186e978cf8dc31fceb4c544826e5",
+    "typeScriptVersion": "4.5"
+}

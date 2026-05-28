@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.dropwhile",
+    "version": "4.6.9",
+    "description": "TypeScript definitions for lodash.dropwhile",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.dropwhile",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.dropwhile"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "af349e47d8b99571febd3169f66de70b2358227ac8a66aab79e4efc1391e4143",
+    "typeScriptVersion": "4.5"
+}

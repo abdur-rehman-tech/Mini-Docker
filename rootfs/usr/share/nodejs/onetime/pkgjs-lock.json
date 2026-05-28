@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "ava":{
+   "version":"5.3.1"
+  },
+  "mimic-fn":{
+   "version":"4.0.0"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"onetime",
+ "packages":{
+  "":{
+   "name":"onetime",
+   "version":"6.0.0"
+  },
+  "node_modules/ava":{
+   "name":"ava",
+   "version":"5.3.1"
+  },
+  "node_modules/mimic-fn":{
+   "name":"mimic-fn",
+   "version":"4.0.0"
+  }
+ },
+ "pkgjs_version":"0.15.15",
+ "version":"6.0.0"
+}

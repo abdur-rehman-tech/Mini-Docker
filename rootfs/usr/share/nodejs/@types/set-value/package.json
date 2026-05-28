@@ -1,0 +1,30 @@
+{
+    "name": "@types/set-value",
+    "version": "4.0.3",
+    "description": "TypeScript definitions for set-value",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/set-value",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Daniel Rosenwasser",
+            "githubUsername": "DanielRosenwasser",
+            "url": "https://github.com/DanielRosenwasser"
+        },
+        {
+            "name": "Piotr Błażejewicz",
+            "githubUsername": "DanielRosenwasser",
+            "url": "https://github.com/DanielRosenwasser"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/set-value"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "12becd0b290efe42ce70db81a4f887f1715757a792320e988fd1dd194b83f349",
+    "typeScriptVersion": "4.5"
+}

@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "ava":{
+   "version":"5.3.1"
+  },
+  "execa":{
+   "version":"8.0.1"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"windows-release",
+ "packages":{
+  "":{
+   "name":"windows-release",
+   "version":"6.0.0"
+  },
+  "node_modules/ava":{
+   "name":"ava",
+   "version":"5.3.1"
+  },
+  "node_modules/execa":{
+   "name":"execa",
+   "version":"8.0.1"
+  }
+ },
+ "pkgjs_version":"0.16.0",
+ "version":"6.0.0"
+}

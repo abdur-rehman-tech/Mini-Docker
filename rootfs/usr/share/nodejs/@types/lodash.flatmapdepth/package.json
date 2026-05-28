@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.flatmapdepth",
+    "version": "4.10.6",
+    "description": "TypeScript definitions for lodash.flatmapdepth",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.flatmapdepth",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.flatmapdepth"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "086e203b977c94e57456b2924435feee408d9947dff9bfbe1019a2c765193359",
+    "typeScriptVersion": "4.5"
+}

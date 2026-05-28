@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.isobjectlike",
+    "version": "4.0.9",
+    "description": "TypeScript definitions for lodash.isobjectlike",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.isobjectlike",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.isobjectlike"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "20228d60dccde81c972fc37862f672ae6ec4f77e1696aadae39b5971f9e9ee4a",
+    "typeScriptVersion": "4.5"
+}

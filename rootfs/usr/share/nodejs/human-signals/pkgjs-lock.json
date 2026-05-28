@@ -1,0 +1,21 @@
+{
+ "dependencies":{
+  "ajv":{
+   "version":"6.12.6"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"human-signals",
+ "packages":{
+  "":{
+   "name":"human-signals",
+   "version":"6.0.0"
+  },
+  "node_modules/ajv":{
+   "name":"ajv",
+   "version":"6.12.6"
+  }
+ },
+ "pkgjs_version":"0.15.15",
+ "version":"6.0.0"
+}

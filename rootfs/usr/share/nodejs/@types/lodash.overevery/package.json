@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.overevery",
+    "version": "4.7.9",
+    "description": "TypeScript definitions for lodash.overevery",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.overevery",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.overevery"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "fb66e93dfdcb8e2896d58494c77c75f3854e6d351fe32baf9d5fdc762f92a885",
+    "typeScriptVersion": "4.5"
+}

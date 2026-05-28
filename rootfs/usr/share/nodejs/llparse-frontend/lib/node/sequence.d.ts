@@ -1,0 +1,20 @@
+/// <reference types="node" />
+/// <reference types="node" />
+import { Buffer } from 'buffer';
+import { IUniqueName } from '../utils';
+import { IWrap } from '../wrap';
+import { Node } from './base';
+import { Match } from './match';
+import { Slot } from './slot';
+export interface IReadonlySequenceEdge {
+    readonly node: IWrap<Node>;
+    readonly value: number | undefined;
+}
+export declare class Sequence extends Match {
+    readonly select: Buffer;
+    private privEdge?;
+    constructor(id: IUniqueName, select: Buffer);
+    setEdge(node: IWrap<Node>, value?: number | undefined): void;
+    get edge(): IReadonlySequenceEdge | undefined;
+    protected buildSlots(): Generator<Slot, void, unknown>;
+}

@@ -1,0 +1,35 @@
+{
+ "dependencies":{
+  "bundt":{
+   "version":"1.1.5"
+  },
+  "typescript":{
+   "version":"5.0.4"
+  },
+  "uvu":{
+   "version":"0.5.6"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"resolve.exports",
+ "packages":{
+  "":{
+   "name":"resolve.exports",
+   "version":"2.0.2"
+  },
+  "/usr/share/nodejs/bundt":{
+   "name":"bundt",
+   "version":"1.1.5"
+  },
+  "/usr/share/nodejs/typescript":{
+   "name":"typescript",
+   "version":"5.0.4"
+  },
+  "node_modules/uvu":{
+   "name":"uvu",
+   "version":"0.5.6"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"2.0.2"
+}

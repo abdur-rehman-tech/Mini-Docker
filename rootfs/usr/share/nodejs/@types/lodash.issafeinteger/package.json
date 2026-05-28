@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.issafeinteger",
+    "version": "4.0.9",
+    "description": "TypeScript definitions for lodash.issafeinteger",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.issafeinteger",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.issafeinteger"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "a8ffd8a0a64af408180bc817eb4c498d1ed5b48205fe0a48d01975d8c0c8431e",
+    "typeScriptVersion": "4.5"
+}

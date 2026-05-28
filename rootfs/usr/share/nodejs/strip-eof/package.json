@@ -1,0 +1,46 @@
+{
+	"name": "strip-eof",
+	"version": "2.0.0",
+	"description": "Wrapper to launch new strip-final-newline",
+	"license": "MIT",
+	"author": {
+		"name": "Yadd",
+		"email": "yadd@debian.org",
+		"url": "sindresorhus.com"
+	},
+	"main": "./index.cjs",
+	"module": "./index.mjs",
+	"exports": {
+		"require": "./index.cjs",
+		"import": "./index.mjs"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.cjs",
+		"index.mjs"
+	],
+	"keywords": [
+		"strip",
+		"trim",
+		"remove",
+		"delete",
+		"final",
+		"last",
+		"end",
+		"file",
+		"newline",
+		"linebreak",
+		"character",
+		"string",
+		"buffer"
+	],
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.23.0"
+	}
+}

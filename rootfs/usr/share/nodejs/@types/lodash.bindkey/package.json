@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.bindkey",
+    "version": "4.2.9",
+    "description": "TypeScript definitions for lodash.bindkey",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.bindkey",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.bindkey"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "526b871a7be9661bf89783746287cc7bc8b988e258b4ea96f4758292458fe8b6",
+    "typeScriptVersion": "4.5"
+}

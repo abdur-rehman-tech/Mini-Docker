@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "@types/semver":{
+   "version":"7.5.8"
+  },
+  "semver":{
+   "version":"7.6.1"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"@babel/helper-fixtures",
+ "packages":{
+  "":{
+   "name":"@babel/helper-fixtures",
+   "version":"7.19.4"
+  },
+  "node_modules/@types/semver":{
+   "name":"@types/semver",
+   "version":"7.5.8"
+  },
+  "node_modules/semver":{
+   "name":"semver",
+   "version":"7.6.1"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"7.19.4"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.samplesize",
+    "version": "4.2.9",
+    "description": "TypeScript definitions for lodash.samplesize",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.samplesize",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.samplesize"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "16822b56bf837468a7577336cc379b3418f06c6e39b77b8f6f6d8dc508027b41",
+    "typeScriptVersion": "4.5"
+}

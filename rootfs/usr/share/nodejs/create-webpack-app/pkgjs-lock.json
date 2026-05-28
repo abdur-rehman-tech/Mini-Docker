@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "colorette":{
+   "version":"2.0.20"
+  },
+  "commander":{
+   "version":"14.0.3"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"create-webpack-app",
+ "packages":{
+  "":{
+   "name":"create-webpack-app",
+   "version":"2.0.1"
+  },
+  "node_modules/colorette":{
+   "name":"colorette",
+   "version":"2.0.20"
+  },
+  "node_modules/commander":{
+   "name":"commander",
+   "version":"14.0.3"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"2.0.1"
+}

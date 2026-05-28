@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "@types/node":{
+   "version":"22.19.6"
+  },
+  "typescript":{
+   "version":"5.0.4"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"@fastify/busboy",
+ "packages":{
+  "":{
+   "name":"@fastify/busboy",
+   "version":"3.2.0"
+  },
+  "/usr/share/nodejs/typescript":{
+   "name":"typescript",
+   "version":"5.0.4"
+  },
+  "node_modules/@types/node":{
+   "name":"@types/node",
+   "version":"22.19.6"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"3.2.0"
+}

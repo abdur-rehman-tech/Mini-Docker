@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.pullallwith",
+    "version": "4.7.6",
+    "description": "TypeScript definitions for lodash.pullallwith",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.pullallwith",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.pullallwith"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "c40a14a446f829dd6199d26a6484586ff601bb0bf6dac6196f7518cb9c9b35fd",
+    "typeScriptVersion": "4.5"
+}

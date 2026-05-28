@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "@types/node":{
+   "version":"18.18.14"
+  },
+  "ava":{
+   "version":"5.3.1"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"get-stream",
+ "packages":{
+  "":{
+   "name":"get-stream",
+   "version":"8.0.1"
+  },
+  "node_modules/@types/node":{
+   "name":"@types/node",
+   "version":"18.18.14"
+  },
+  "node_modules/ava":{
+   "name":"ava",
+   "version":"5.3.1"
+  }
+ },
+ "pkgjs_version":"0.15.18",
+ "version":"8.0.1"
+}

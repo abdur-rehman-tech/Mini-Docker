@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.capitalize",
+    "version": "4.2.9",
+    "description": "TypeScript definitions for lodash.capitalize",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.capitalize",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.capitalize"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "c8034ebd639c90a48027e894e9aeff2287a0a23552d02ad58ad3cd5eb9a45452",
+    "typeScriptVersion": "4.5"
+}

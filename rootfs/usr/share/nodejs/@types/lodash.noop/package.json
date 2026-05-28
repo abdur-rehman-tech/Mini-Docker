@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.noop",
+    "version": "3.0.9",
+    "description": "TypeScript definitions for lodash.noop",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.noop",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.noop"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "cfcc8ff16a1d4e8d1f4236dbd5ba439855141cf7aa334a62cb6ec7afc771f5a5",
+    "typeScriptVersion": "4.5"
+}

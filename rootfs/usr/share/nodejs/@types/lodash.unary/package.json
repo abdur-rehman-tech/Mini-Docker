@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.unary",
+    "version": "4.2.9",
+    "description": "TypeScript definitions for lodash.unary",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.unary",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.unary"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "6ef1f2d5a570e7ecbfc0aa3909b5827a15e8e10fd9a95b9aeef0563cd494a2cb",
+    "typeScriptVersion": "4.5"
+}

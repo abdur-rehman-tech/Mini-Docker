@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.escaperegexp",
+    "version": "4.1.9",
+    "description": "TypeScript definitions for lodash.escaperegexp",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.escaperegexp",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.escaperegexp"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "21f58cc904881b6c7a880dd678076d59fd55e7cc0ef8e199935fbddc926e9f0f",
+    "typeScriptVersion": "4.5"
+}

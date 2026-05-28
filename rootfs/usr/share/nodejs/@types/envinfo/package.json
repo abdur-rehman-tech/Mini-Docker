@@ -1,0 +1,25 @@
+{
+    "name": "@types/envinfo",
+    "version": "7.8.3",
+    "description": "TypeScript definitions for envinfo",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/envinfo",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "nashaofu",
+            "githubUsername": "nashaofu",
+            "url": "https://github.com/nashaofu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/envinfo"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "5aeee85b6a6226f74ef0a1f1f51108fcc41c34b85c721216eeb07979ee335358",
+    "typeScriptVersion": "4.5"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.mapvalues",
+    "version": "4.6.9",
+    "description": "TypeScript definitions for lodash.mapvalues",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.mapvalues",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.mapvalues"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "21225b87dd224a8e8c9a4e51a806154978268f7e057507b9a64eddb73b363665",
+    "typeScriptVersion": "4.5"
+}

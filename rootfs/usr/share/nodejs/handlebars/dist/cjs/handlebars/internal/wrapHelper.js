@@ -1,0 +1,26 @@
+/*istanbul ignore next*/
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.wrapHelper = wrapHelper;
+
+function wrapHelper(helper, transformOptionsFn) {
+  if (typeof helper !== 'function') {
+    // This should not happen, but apparently it does in https://github.com/wycats/handlebars.js/issues/1639
+    // We try to make the wrapper least-invasive by not wrapping it, if the helper is not a function.
+    return helper;
+  }
+
+  var wrapper = function wrapper()
+  /* dynamic arguments */
+  {
+    var options = arguments[arguments.length - 1];
+    arguments[arguments.length - 1] = transformOptionsFn(options);
+    return helper.apply(this, arguments);
+  };
+
+  return wrapper;
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL2xpYi9oYW5kbGViYXJzL2ludGVybmFsL3dyYXBIZWxwZXIuanMiXSwibmFtZXMiOlsid3JhcEhlbHBlciIsImhlbHBlciIsInRyYW5zZm9ybU9wdGlvbnNGbiIsIndyYXBwZXIiLCJvcHRpb25zIiwiYXJndW1lbnRzIiwibGVuZ3RoIiwiYXBwbHkiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQU8sU0FBU0EsVUFBVCxDQUFvQkMsTUFBcEIsRUFBNEJDLGtCQUE1QixFQUFnRDtBQUNyRCxNQUFJLE9BQU9ELE1BQVAsS0FBa0IsVUFBdEIsRUFBa0M7QUFDaEM7QUFDQTtBQUNBLFdBQU9BLE1BQVA7QUFDRDs7QUFDRCxNQUFJRSxPQUFPLEdBQUcsU0FBVkEsT0FBVTtBQUFTO0FBQXlCO0FBQzlDLFFBQU1DLE9BQU8sR0FBR0MsU0FBUyxDQUFDQSxTQUFTLENBQUNDLE1BQVYsR0FBbUIsQ0FBcEIsQ0FBekI7QUFDQUQsSUFBQUEsU0FBUyxDQUFDQSxTQUFTLENBQUNDLE1BQVYsR0FBbUIsQ0FBcEIsQ0FBVCxHQUFrQ0osa0JBQWtCLENBQUNFLE9BQUQsQ0FBcEQ7QUFDQSxXQUFPSCxNQUFNLENBQUNNLEtBQVAsQ0FBYSxJQUFiLEVBQW1CRixTQUFuQixDQUFQO0FBQ0QsR0FKRDs7QUFLQSxTQUFPRixPQUFQO0FBQ0QiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZnVuY3Rpb24gd3JhcEhlbHBlcihoZWxwZXIsIHRyYW5zZm9ybU9wdGlvbnNGbikge1xuICBpZiAodHlwZW9mIGhlbHBlciAhPT0gJ2Z1bmN0aW9uJykge1xuICAgIC8vIFRoaXMgc2hvdWxkIG5vdCBoYXBwZW4sIGJ1dCBhcHBhcmVudGx5IGl0IGRvZXMgaW4gaHR0cHM6Ly9naXRodWIuY29tL3d5Y2F0cy9oYW5kbGViYXJzLmpzL2lzc3Vlcy8xNjM5XG4gICAgLy8gV2UgdHJ5IHRvIG1ha2UgdGhlIHdyYXBwZXIgbGVhc3QtaW52YXNpdmUgYnkgbm90IHdyYXBwaW5nIGl0LCBpZiB0aGUgaGVscGVyIGlzIG5vdCBhIGZ1bmN0aW9uLlxuICAgIHJldHVybiBoZWxwZXI7XG4gIH1cbiAgbGV0IHdyYXBwZXIgPSBmdW5jdGlvbigvKiBkeW5hbWljIGFyZ3VtZW50cyAqLykge1xuICAgIGNvbnN0IG9wdGlvbnMgPSBhcmd1bWVudHNbYXJndW1lbnRzLmxlbmd0aCAtIDFdO1xuICAgIGFyZ3VtZW50c1thcmd1bWVudHMubGVuZ3RoIC0gMV0gPSB0cmFuc2Zvcm1PcHRpb25zRm4ob3B0aW9ucyk7XG4gICAgcmV0dXJuIGhlbHBlci5hcHBseSh0aGlzLCBhcmd1bWVudHMpO1xuICB9O1xuICByZXR1cm4gd3JhcHBlcjtcbn1cbiJdfQ==

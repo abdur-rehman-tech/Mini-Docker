@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.sortedlastindex",
+    "version": "4.1.9",
+    "description": "TypeScript definitions for lodash.sortedlastindex",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.sortedlastindex",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.sortedlastindex"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "9c6dba53cda40c9b58cccd57b1558d1a43e05f5f17c00bd9fa3dea75544f6af4",
+    "typeScriptVersion": "4.5"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.clonedeepwith",
+    "version": "4.5.9",
+    "description": "TypeScript definitions for lodash.clonedeepwith",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.clonedeepwith",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.clonedeepwith"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "1f93eb09595a589428be540c69d17cc53c346ec2f0881336c01c207f21d840fa",
+    "typeScriptVersion": "4.5"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "caniuse-lite",
+  "version": "1.0.30001780",
+  "description": "A smaller version of caniuse-db, with only the essentials!",
+  "main": "dist/unpacker/index.js",
+  "scripts": {
+    "pack": "node copy-mdn.js && rm -Rf data && node src/packer/index.js",
+    "test:integration": "node ./consumer.js > /dev/null",
+    "test:unit": "uvu . \\.test\\.js$",
+    "test:lint": "eslint .",
+    "test": "pnpm run pack && pnpm run /^test:/"
+  },
+  "files": [
+    "data",
+    "dist"
+  ],
+  "keywords": [
+    "support"
+  ],
+  "author": {
+    "name": "Ben Briggs",
+    "email": "beneb.info@gmail.com",
+    "url": "http://beneb.info"
+  },
+  "repository": "browserslist/caniuse-lite",
+  "funding": [
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/browserslist"
+    },
+    {
+      "type": "tidelift",
+      "url": "https://tidelift.com/funding/github/npm/caniuse-lite"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ai"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "@babel/generator": "^7.28.3",
+    "@babel/types": "^7.28.4",
+    "@logux/eslint-config": "^56.1.0",
+    "@mdn/browser-compat-data": "7.3.7",
+    "caniuse-db": "1.0.30001780",
+    "clean-publish": "^5.2.2",
+    "eslint": "^9.35.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-n": "^17.21.3",
+    "eslint-plugin-node-imports": "^1.0.2",
+    "eslint-plugin-perfectionist": "^4.15.0",
+    "eslint-plugin-prefer-let": "^4.0.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "uvu": "^0.5.6"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "jsxSingleQuote": false,
+    "quoteProps": "consistent",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "clean-publish": {
+    "cleanDocs": true
+  }
+}

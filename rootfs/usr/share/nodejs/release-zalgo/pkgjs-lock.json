@@ -1,0 +1,35 @@
+{
+ "dependencies":{
+  "coveralls":{
+   "version":"3.1.1"
+  },
+  "es6-error":{
+   "version":"4.1.1"
+  },
+  "nyc":{
+   "version":"15.1.0"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"release-zalgo",
+ "packages":{
+  "":{
+   "name":"release-zalgo",
+   "version":"1.0.0"
+  },
+  "/usr/share/nodejs/coveralls":{
+   "name":"coveralls",
+   "version":"3.1.1"
+  },
+  "/usr/share/nodejs/es6-error":{
+   "name":"es6-error",
+   "version":"4.1.1"
+  },
+  "node_modules/nyc":{
+   "name":"nyc",
+   "version":"15.1.0"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"1.0.0"
+}

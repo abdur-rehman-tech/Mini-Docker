@@ -1,0 +1,25 @@
+{
+    "name": "@types/fs-readdir-recursive",
+    "version": "1.1.3",
+    "description": "TypeScript definitions for fs-readdir-recursive",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/fs-readdir-recursive",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Paolo Scanferla",
+            "githubUsername": "pscanf",
+            "url": "https://github.com/pscanf"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/fs-readdir-recursive"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "7a613e0d67b7cbc2a36a0d7de91f8cd897748006228c8da8b2b55692bc7a2122",
+    "typeScriptVersion": "4.7"
+}

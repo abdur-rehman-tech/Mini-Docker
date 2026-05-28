@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "ansi-regex":{
+   "version":"6.2.2"
+  },
+  "ava":{
+   "version":"5.3.1"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"strip-ansi",
+ "packages":{
+  "":{
+   "name":"strip-ansi",
+   "version":"7.2.0"
+  },
+  "node_modules/ansi-regex":{
+   "name":"ansi-regex",
+   "version":"6.2.2"
+  },
+  "node_modules/ava":{
+   "name":"ava",
+   "version":"5.3.1"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"7.2.0"
+}

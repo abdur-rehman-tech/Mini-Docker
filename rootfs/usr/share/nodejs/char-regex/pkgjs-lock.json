@@ -1,0 +1,21 @@
+{
+ "dependencies":{
+  "ava":{
+   "version":"5.3.1"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"char-regex",
+ "packages":{
+  "":{
+   "name":"char-regex",
+   "version":"2.0.2"
+  },
+  "node_modules/ava":{
+   "name":"ava",
+   "version":"5.3.1"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"2.0.2"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.istypedarray",
+    "version": "4.0.9",
+    "description": "TypeScript definitions for lodash.istypedarray",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.istypedarray",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.istypedarray"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "2c34b520c9ff5b61aaed946fcfea96bb04b0a7988ecd81f35cc240101d990b78",
+    "typeScriptVersion": "4.5"
+}

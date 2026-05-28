@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Transform = void 0;
+class Transform {
+    ref;
+    constructor(ref) {
+        this.ref = ref;
+    }
+}
+exports.Transform = Transform;
+//# sourceMappingURL=base.js.map

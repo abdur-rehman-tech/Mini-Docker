@@ -1,0 +1,1 @@
+{"version":3,"file":"index-cjs.js","sourceRoot":"","sources":["../../src/index-cjs.ts"],"names":[],"mappings":";AAAA,yCAAqC;AAErC,iBAAS,MAAM,CAAC,MAAM,CAAC,mBAAQ,EAAE,EAAE,OAAO,EAAE,mBAAQ,EAAE,QAAQ,EAAR,mBAAQ,EAAE,CAAC,CAAA","sourcesContent":["import { LRUCache } from './index.js'\n\nexport = Object.assign(LRUCache, { default: LRUCache, LRUCache })\n"]}

@@ -1,0 +1,52 @@
+{
+  "name": "llparse",
+  "version": "7.3.0",
+  "description": "Compile incremental parsers to C code",
+  "main": "lib/api.js",
+  "types": "lib/api.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "prepare": "npm run clean && npm run build",
+    "lint": "eslint -c eslint.json src/**/*.ts test/**/*.ts",
+    "lint:fix": "eslint --fix -c eslint.json src/**/*.ts test/**/*.ts",
+    "mocha": "mocha --timeout=10000 -r ts-node/register/type-check --reporter spec test/*-test.ts",
+    "test": "npm run mocha && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nodejs/llparse.git"
+  },
+  "keywords": [
+    "llparse",
+    "compiler"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com> (http://darksi.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodejs/llparse/issues"
+  },
+  "homepage": "https://github.com/nodejs/llparse#readme",
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^2.6.1",
+    "@types/debug": "^4.1.5",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^8.56.0",
+    "esm": "^3.2.25",
+    "llparse-test-fixture": "^5.0.1",
+    "mocha": "^9.2.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "debug": "^4.2.0",
+    "llparse-frontend": "^3.0.0"
+  }
+}

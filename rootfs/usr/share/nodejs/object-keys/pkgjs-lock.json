@@ -1,0 +1,21 @@
+{
+ "dependencies":{
+  "tape":{
+   "version":"5.6.1"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"object-keys",
+ "packages":{
+  "":{
+   "name":"object-keys",
+   "version":"1.1.1"
+  },
+  "/usr/share/nodejs/tape":{
+   "name":"tape",
+   "version":"5.6.1"
+  }
+ },
+ "pkgjs_version":"0.16.0",
+ "version":"1.1.1"
+}

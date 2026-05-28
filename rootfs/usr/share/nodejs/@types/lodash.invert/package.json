@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.invert",
+    "version": "4.3.9",
+    "description": "TypeScript definitions for lodash.invert",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.invert",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.invert"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "0a0c3d1bb6cd62a818ea1ef73f76831d433b79dd17d6a60f5bb4a25c757f7725",
+    "typeScriptVersion": "4.5"
+}

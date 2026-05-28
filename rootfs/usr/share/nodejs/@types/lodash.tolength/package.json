@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.tolength",
+    "version": "4.0.9",
+    "description": "TypeScript definitions for lodash.tolength",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.tolength",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.tolength"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "87744a1f852bc70586511c9ddb4e1479a7a5bb897c82b88ee17cdeb29ce0ca61",
+    "typeScriptVersion": "4.5"
+}

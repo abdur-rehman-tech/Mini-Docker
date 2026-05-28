@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.ntharg",
+    "version": "4.2.9",
+    "description": "TypeScript definitions for lodash.ntharg",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.ntharg",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.ntharg"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "e13443869d222d2d2ab93a0339e773ac6ec990af2b19a5cb7c17f1cfc650feeb",
+    "typeScriptVersion": "4.5"
+}

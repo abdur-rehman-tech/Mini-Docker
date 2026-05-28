@@ -1,0 +1,25 @@
+{
+    "name": "@types/iferr",
+    "version": "1.0.4",
+    "description": "TypeScript definitions for iferr",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/iferr",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "segayuu",
+            "githubUsername": "segayuu",
+            "url": "https://github.com/segayuu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/iferr"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "7cee2e8f4ebdfea662b7c297906bc5db845a49c2c1a82d7d767107c23650b973",
+    "typeScriptVersion": "4.5"
+}

@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "libtap":{
+   "version":"1.4.1"
+  },
+  "nyc":{
+   "version":"15.1.0"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"get-package-type",
+ "packages":{
+  "":{
+   "name":"get-package-type",
+   "version":"0.1.0"
+  },
+  "/usr/share/nodejs/libtap":{
+   "name":"libtap",
+   "version":"1.4.1"
+  },
+  "node_modules/nyc":{
+   "name":"nyc",
+   "version":"15.1.0"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"0.1.0"
+}

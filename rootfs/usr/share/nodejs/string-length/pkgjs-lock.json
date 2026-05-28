@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "char-regex":{
+   "version":"2.0.2"
+  },
+  "strip-ansi":{
+   "version":"7.1.2"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"string-length",
+ "packages":{
+  "":{
+   "name":"string-length",
+   "version":"4.0.2"
+  },
+  "/usr/share/nodejs/char-regex":{
+   "name":"char-regex",
+   "version":"2.0.2"
+  },
+  "node_modules/strip-ansi":{
+   "name":"strip-ansi",
+   "version":"7.1.2"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"4.0.2"
+}

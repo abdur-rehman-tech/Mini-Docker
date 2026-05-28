@@ -1,0 +1,57 @@
+{
+   "author" : {
+      "email" : "sindresorhus@gmail.com",
+      "name" : "Sindre Sorhus",
+      "url" : "https://sindresorhus.com"
+   },
+   "description" : "Get a stream as a string, Buffer, ArrayBuffer or array",
+   "devDependencies" : {
+      "@types/node" : "^20.5.0",
+      "ava" : "^5.3.1",
+      "precise-now" : "^2.0.0",
+      "tsd" : "^0.28.1",
+      "xo" : "^0.56.0"
+   },
+   "engines" : {
+      "node" : ">=16"
+   },
+   "exports" : {
+      "import" : "./source/index.js",
+      "require" : "./index.cjs",
+      "types" : "./source/index.d.ts"
+   },
+   "files" : [
+      "source",
+      "!*.test-d.ts",
+      "./dhnodejsBundle.cjs",
+      "index.cjs"
+   ],
+   "funding" : "https://github.com/sponsors/sindresorhus",
+   "keywords" : [
+      "get",
+      "stream",
+      "promise",
+      "concat",
+      "string",
+      "text",
+      "buffer",
+      "read",
+      "data",
+      "consume",
+      "readable",
+      "readablestream",
+      "object",
+      "concat"
+   ],
+   "license" : "MIT",
+   "module" : "source/index.js",
+   "name" : "get-stream",
+   "repository" : "sindresorhus/get-stream",
+   "scripts" : {
+      "benchmark" : "node benchmarks/index.js",
+      "test" : "xo && ava && tsd --typings=source/index.d.ts --files=source/index.test-d.ts"
+   },
+   "type" : "module",
+   "types" : "./source/index.d.ts",
+   "version" : "8.0.1"
+}

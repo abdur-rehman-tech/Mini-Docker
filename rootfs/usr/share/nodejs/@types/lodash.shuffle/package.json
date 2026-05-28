@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.shuffle",
+    "version": "4.2.9",
+    "description": "TypeScript definitions for lodash.shuffle",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.shuffle",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.shuffle"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "96e31cf17249a763f87b3f6ae6a885b9b9a37c97c35d412997a81181574f7177",
+    "typeScriptVersion": "4.5"
+}

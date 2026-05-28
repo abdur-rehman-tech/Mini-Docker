@@ -1,0 +1,26 @@
+{
+    "name": "@types/electron-to-chromium",
+    "version": "1.5.0",
+    "description": "TypeScript definitions for electron-to-chromium",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/electron-to-chromium",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Adam Thompson-Sharpe",
+            "githubUsername": "MysteryBlokHed",
+            "url": "https://github.com/MysteryBlokHed"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/electron-to-chromium"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "peerDependencies": {},
+    "typesPublisherContentHash": "ba1035a70f6db413bd5c84f3a4b09d296d9a33a8236e6b6b9f77848c97170d04",
+    "typeScriptVersion": "5.0"
+}

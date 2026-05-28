@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "coveralls":{
+   "version":"3.1.1"
+  },
+  "rollup":{
+   "version":"3.29.5"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"html-escaper",
+ "packages":{
+  "":{
+   "name":"html-escaper",
+   "version":"3.0.3"
+  },
+  "/usr/share/nodejs/coveralls":{
+   "name":"coveralls",
+   "version":"3.1.1"
+  },
+  "/usr/share/nodejs/rollup":{
+   "name":"rollup",
+   "version":"3.29.5"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"3.0.3"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "@types/promise-inflight",
+    "version": "1.0.3",
+    "description": "TypeScript definitions for promise-inflight",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/promise-inflight",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Emily Marigold Klassen",
+            "githubUsername": "forivall",
+            "url": "https://github.com/forivall"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/promise-inflight"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "e40c4eceb3d79a920887ba6fe24676e386e3fe480b0b70131f5c798a70d0c194",
+    "typeScriptVersion": "4.5"
+}

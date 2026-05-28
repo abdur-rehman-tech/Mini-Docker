@@ -1,0 +1,28 @@
+{
+ "dependencies":{
+  "chalk":{
+   "version":"5.6.2"
+  },
+  "rollup":{
+   "version":"3.30.0"
+  }
+ },
+ "lockfileVersion":2,
+ "name":"@discoveryjs/json-ext",
+ "packages":{
+  "":{
+   "name":"@discoveryjs/json-ext",
+   "version":"1.0.0"
+  },
+  "/usr/share/nodejs/chalk":{
+   "name":"chalk",
+   "version":"5.6.2"
+  },
+  "/usr/share/nodejs/rollup":{
+   "name":"rollup",
+   "version":"3.30.0"
+  }
+ },
+ "pkgjs_version":"0.17.1",
+ "version":"1.0.0"
+}

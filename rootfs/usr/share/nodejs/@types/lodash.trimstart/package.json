@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.trimstart",
+    "version": "4.5.9",
+    "description": "TypeScript definitions for lodash.trimstart",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.trimstart",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.trimstart"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "24c9db5cf25dc7caffdef56b9d818716856ca4aa51b90fd457aed1fd01478c85",
+    "typeScriptVersion": "4.5"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.tosafeinteger",
+    "version": "4.0.9",
+    "description": "TypeScript definitions for lodash.tosafeinteger",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.tosafeinteger",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.tosafeinteger"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "383dfdfc3070b642c94364e6e7dc9e3220e40b0c11b0d0f6d072bcfe21d26e6a",
+    "typeScriptVersion": "4.5"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "@types/spdx-expression-parse",
+    "version": "3.0.5",
+    "description": "TypeScript definitions for spdx-expression-parse",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/spdx-expression-parse",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Piotr Błażejewicz",
+            "githubUsername": "peterblazejewicz",
+            "url": "https://github.com/peterblazejewicz"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/spdx-expression-parse"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "176e38f2cfa4db6cdea2a8f7e9f3b48db440d741d6d4e36493a8772ea770c53e",
+    "typeScriptVersion": "4.5"
+}

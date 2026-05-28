@@ -1,0 +1,19 @@
+{
+    "name": "@types/osenv",
+    "version": "0.1.3",
+    "description": "TypeScript definitions for osenv",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/osenv",
+    "license": "MIT",
+    "contributors": [],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/osenv"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "56f7fa47084a1dcd2f1491f385ade489d3b8c6af648787397f2eda26ad9dd093",
+    "typeScriptVersion": "4.5"
+}

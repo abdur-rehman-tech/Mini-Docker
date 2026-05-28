@@ -1,0 +1,32 @@
+{
+    "name": "@types/lodash.zipobjectdeep",
+    "version": "4.4.6",
+    "description": "TypeScript definitions for lodash.zipobjectdeep",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash.zipobjectdeep",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Brian Zengel",
+            "githubUsername": "bczengel",
+            "url": "https://github.com/bczengel"
+        },
+        {
+            "name": "Ilya Mochalov",
+            "githubUsername": "chrootsu",
+            "url": "https://github.com/chrootsu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lodash.zipobjectdeep"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/lodash": "*"
+    },
+    "typesPublisherContentHash": "718c147476ed8794d1816c3f83209657762701b2b629c5f78dee8088767ef8e7",
+    "typeScriptVersion": "4.5"
+}
