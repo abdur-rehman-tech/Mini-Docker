@@ -1,76 +1,73 @@
-MiniDocker
+# 🐳 MiniDocker
 
-A lightweight Docker-like container runtime built in C using Linux namespaces and chroot().
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=white)
 
-Features
-Process isolation using Linux namespaces
-Lightweight container runtime written in C
-Custom root filesystem support
-Docker-like image structure
-Runs real applications inside isolated environments
-Manual shared library dependency handling using ldd
-Technologies Used
-C Programming
-Linux System Calls
-clone()
-chroot()
-PID Namespaces
-UTS Namespaces
-Mount Namespaces
-Project Structure
-docker/
+A lightweight, Docker-like container runtime written in **C**, built from scratch with **Linux namespaces** and **`chroot()`** to understand how containers really work under the hood.
+
+> A container isn't a VM. It's a normal Linux process with a restricted view of the system.
+
+## ✨ Features
+
+- Process isolation with **PID, UTS and mount namespaces** via `clone()`
+- Filesystem isolation with **`chroot()`** into a custom root filesystem
+- Docker-like image structure (`images/`, `rootfs/`)
+- Runs real applications (e.g. Bash, Node.js) inside the isolated environment
+- Shared library dependencies resolved manually with **`ldd`**
+
+## 🧠 How it works
+
+```
+ your app (bash / node)          ← runs as PID 1 inside the container
+        │
+ clone(CLONE_NEWPID | CLONE_NEWUTS | CLONE_NEWNS)
+        │                        ← own process tree, hostname and mounts
+ chroot(rootfs/)                 ← own root filesystem
+        │
+ custom rootfs: binary + .so libs (copied using ldd)
+        │
+ host Linux kernel               ← shared, no guest OS
+```
+
+## 📁 Project structure
+
+```
+Mini-Docker/
 ├── Makefile
-├── main.c
-├── container.c
-├── container.h
-├── utils.c
-├── utils.h
-├── rootfs/
-├── images/
-└── minidocker
-Build the Project
+├── main.c          # entry point / CLI
+├── container.c/.h  # namespace + chroot logic
+├── utils.c/.h      # helpers
+├── images/         # image layout (e.g. node_app)
+└── rootfs/         # container root filesystem
+```
+
+## 🚀 Build & run
+
+```bash
 make
-Run the Container
-sudo ./minidocker /bin/bash
-Example
+sudo ./minidocker /bin/bash      # isolated shell
+sudo ./minidocker /bin/node      # run Node.js inside the container
+```
 
-Run a Node.js application inside the container:
+> Root is required because creating namespaces and calling `chroot()` need elevated privileges.
 
-sudo ./minidocker /bin/node
+## 🗺️ Roadmap
 
-The project includes a custom image structure containing:
+- [ ] Docker-like CLI (`run`, `build`, `images`)
+- [ ] cgroups for CPU/memory limits
+- [ ] Container networking (network namespace + veth)
+- [ ] Layered filesystem (OverlayFS)
+- [ ] Volume mounts and an image registry
 
-Node.js binary
-Required .so shared libraries
-Application files
-How It Works
+## 📚 What I learned
 
-MiniDocker creates isolated environments using:
+- How Docker isolates processes and filesystems internally
+- Linux namespaces, `clone()` and `chroot()` at the system-call level
+- Why container images and layers exist (dynamic linking is a dependency puzzle)
 
-clone() for process creation
-Linux namespaces for isolation
-chroot() for filesystem isolation
-Custom root filesystem setup
+---
 
-Shared library dependencies are manually copied into the container filesystem using:
+## 👤 Author
 
-ldd <binary>
-Future Improvements
-Docker-like CLI (run, build, images)
-Dockerfile support
-Container networking
-Layered filesystem
-Image registry support
-Volume mounting
-Learning Outcomes
+**Abdur Rehman** · DevSecOps Engineer · Founder of [ARTechOps](https://artechops.com)
 
-This project helped in understanding:
-
-How Docker works internally
-Linux containerization concepts
-Process and filesystem isolation
-Dynamic linking in Linux
-Low-level Linux system programming
-Author
-
-ABDUR REHMAN
+[LinkedIn](https://www.linkedin.com/in/muhamad-abdur-rehman-81777b366/) · [GitHub](https://github.com/abdur-rehman-tech) · [artechops.com](https://artechops.com)
